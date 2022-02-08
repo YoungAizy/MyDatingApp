@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent2">#cc00</color>
+    <color name="google">#ED1C24</color>
+    <color name="facebook">#0000FF</color>
+    <color name="login">#00FF00</color>
+    <color name="edit_bg">#facbd2d2</color>
+    <color name="buttonLabel">#d3d3d3</color>
+    <color name="cardview_bg">#A89B9C</color>
+    <color name="status_header">#AD1457</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="250"
+        app:errorEnabled="true"
+        app:counterOverflowTextAppearance="@style/CounterOverFlow"
+        app:counterTextAppearance="@style/CounterText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/status_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:background="@drawable/edit_bg"
+            android:padding="8sp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_margin="12dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:onClick="PostStatus"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="Please note that uploading a new status will overwrite any previosuly posted one."/>
+
+</LinearLayout>

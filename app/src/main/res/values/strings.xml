@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Let\'s Date</string>
+    <string name="add_textbox_hint">+1 534 897 253</string>
+    <string name="add_button_text">Send</string>
+    <string name="service_title">Phone Authentication </string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="add">+</string>
+    <string name="num_change">change</string>
+    <string name="resend">resend</string>
+    <string name="logged">You Are Logged/Signed in</string>
+
+    <string name="pre_screen_welcome">Let us find you the perfect match!</string>
+    <string name="privacy">We Respect and Value Your Privacy</string>
+
+    <!-- Facebook Login -->
+    <string name="facebook_app_id">2227746300797882</string>
+    <string name="fb_login_protocol_scheme">fb2227746300797882</string>
+
+
+    <!-- NavigationView -->
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="reload">Reload</string>
+    <string name="add_spot_to_first">Add spot to first</string>
+    <string name="add_spot_to_last">Add spot to last</string>
+    <string name="remove_spot_from_first">Remove spot from first</string>
+    <string name="remove_spot_from_last">Remove spot from last</string>
+    <string name="replace_first_spot">Replace first spot</string>
+    <string name="swap_first_for_last">Swap first for last</string>
+
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">Wordâ€¦</string>
+    <string name="button_save">Save</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Swipe</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
